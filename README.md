@@ -1,6 +1,6 @@
 # DevCamp Portfolio Application
 
-> This is a Ruby on Rails application that allows users to create thier own portfolios.
+> This is a Ruby on Rails 5 application that allows users to create thier own portfolios.
 
 ### Features
 
