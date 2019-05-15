@@ -1,5 +1,7 @@
 <h1> Portfolio Items</h1>
 
+<%#ss= link_tag "Edit", portfolio(params[:id])_edit_path %>
+
 <% @portfolio_items.each do |p| %>
   <p><%= p.title %></p>
   <p><%= p.subtitle %></p>
