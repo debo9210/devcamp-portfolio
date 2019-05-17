@@ -6,11 +6,11 @@
 <%#ss= link_tag "Edit", portfolio(params[:id])_edit_path %>
 
 <% @portfolio_items.each do |p| %>
-  <p><%= p.title %></p>
+  <p><%= link_to p.title, portfolio_path(p) %></p>
   <p><%= p.subtitle %></p>
   <p><%= p.body %></p>
   <%= image_tag p.thumb_image unless p.thumb_image.nil? %>
-  <%= link_to "Edit", edit_portfolio_path(p.id) %>
+  <%= link_to "Edit", edit_portfolio_path(p) %>
   
 
 <% end %>
