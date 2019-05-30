@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/debo9210/debo_view_tool
+  revision: b47be5637e69208007cfdba151ad7b19f56d2305
+  specs:
+    debo_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -212,6 +218,7 @@ DEPENDENCIES
   bootstrap (~> 4.3.1)
   byebug
   coffee-rails (~> 4.2)
+  debo_view_tool!
   devise (~> 4.6, >= 4.6.2)
   friendly_id (~> 5.2.4)
   jbuilder (~> 2.5)
