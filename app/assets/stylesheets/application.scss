@@ -163,3 +163,19 @@ body {
 }
 
 
+/*
+ * Custom styles
+ */
+
+.card-block{
+  color: black;
+  text-align: left;
+}
+
+.card h2, h3 {
+  font-size: 1.5rem
+}
+
+.auth-links a {
+  color: blue;
+}
