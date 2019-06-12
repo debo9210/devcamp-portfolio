@@ -29,3 +29,6 @@
 # I don't want to show my secrets
 /config/credentials.yml.enc
 /config/*storage.yml
+.env
+# Ignore application configuration
+/config/application.yml
