@@ -8,7 +8,9 @@
 <!--   end of comment form -->
 
 <!--   start of comments  -->
-<%= render @blog.comments %>
+<div id="comments" data-blog-id="<%= @blog.id %>">
+  <%= render @blog.comments %>
+</div>
 
 <!--   end of comments -->
 
