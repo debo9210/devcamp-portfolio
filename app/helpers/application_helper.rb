@@ -77,4 +77,8 @@ def alert_generator msg
   js add_gritter(msg, :title => "Lolu's Portfolio", sticky: false)
 end
 
+def favicon
+  favicon_link_tag 'favicon.ico'
+end
+
 end
