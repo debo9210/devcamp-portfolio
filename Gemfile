@@ -68,10 +68,12 @@ gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 #gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.9', '>= 4.9.3'
 gem 'carrierwave-aws', '~> 1.3'
+#gem "aws-sdk-s3", require: false
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.2', require: 'dotenv/rails-now'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.12'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.2'
 gem 'redis', '~> 4.1', '>= 4.1.2'
-#gem "aws-sdk-s3", require: false
+gem 'redcarpet', '~> 3.4'
+gem 'coderay', '~> 1.1', '>= 1.1.2'

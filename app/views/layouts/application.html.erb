@@ -7,12 +7,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab&display=swap" rel="stylesheet">
+
     <meta name="keywords" content= "<%= @seo_keywords %>" />
+
+    <%= favicon %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%#= favicon_link_tag %>
-    <%= fa_icon "fa-blog" %>
+    <%#= fa_icon "fa-blog" %>
     <!-- <i class="fas fa-blog"></i> -->
   </head>
 
@@ -39,7 +42,7 @@
 
            <%= alerts %>
   
-           <%= source_helper("application") %>
+           <%#= source_helper("application") %>
 
        </div>
       </div>

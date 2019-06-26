@@ -1,7 +1,17 @@
 <div class="col-sm-3 offset-sm-1 blog-sidebar">
           <div class="sidebar-module sidebar-module-inset">
             <h4>About</h4>
-            <p>Hello there! My name is 'Lolu, born couple of decades ago and I am a keen learner of computer related stuffs. Currently I am learning Ruby on Rails to be a full stack web developer using the Rails framework. After this journey, I will be stepping up further by joining the Lamba school online to study full stack web development using HTML, CSS, Javascript, NodeJs, C# and couple of other wonderful programming languages. This has been a wondeful journey and I can't wait to start a new career as a software engineer.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <!-- <p>Hello there! My name is 'Lolu, born couple of decades ago and I am a keen learner of computer related stuffs. Currently I am learning Ruby on Rails to be a full stack web developer using the Rails framework. After this journey, I will be stepping up further by joining the Lamba school online to study full stack web development using HTML, CSS, Javascript, NodeJs, C# and couple of other wonderful programming languages. This has been a wondeful journey and I can't wait to start a new career as a software engineer.</p> -->
+          </div>
+
+            <%= source_helper("alert alert-info blog-sidebar-source") %>
+
+          <div class="sidebar-module">
+            <h4>Topics</h4>
+              <% @side_bar_topics.each do |topic| %>
+                <p><%= link_to topic.title, topic_path(topic) %></p>
+              <% end %>
           </div>
           
           <div class="sidebar-module">
