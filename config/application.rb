@@ -33,5 +33,6 @@ module DevcampPortfolio
     #config.action_controller.permit_all_parameters = true
     config.eager_load_paths << "#{Rails.root}/lib"
     #config.eager_load_paths << Rails.root.join('lib')
+    config.secret_key_base = ENV["SECRET_KEY_BASE"]
   end
 end
